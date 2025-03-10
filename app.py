@@ -29,7 +29,7 @@ def getLLMOutput(userInput, output):
 
     you can say something like: Hello [greetings], as per you source and desination with requiremnt of class and stop type you might get chepest tickets on this day [model output]. 
 
-    Make your response such as professional airline agent and attractive. no pre or post amble.
+    Make your response such as professional airline agent and attractive. no pre or post amble. You can not give any reponse with [user] or [username] and all. you are reponding to user so be professional.
     """
     llm_response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
